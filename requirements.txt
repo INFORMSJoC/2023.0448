@@ -1,0 +1,5 @@
+scipy
+scikit-learn
+tqdm
+pytorch_pretrained_bert
+transformers

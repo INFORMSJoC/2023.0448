@@ -1,0 +1,771 @@
+INFO - 08/26/24 16:58:50 - 0:00:00 - data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     gpu: 0
+                                     model: line
+                                     name: CrisisMMDh_emc
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+INFO - 08/26/24 16:58:50 - 0:00:00 - noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.20±0.42
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.35±0.91
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.48±0.73
+INFO - 08/26/24 19:53:10 - 0:00:00 - data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     gpu: 0
+                                     model: line
+                                     name: CrisisMMDh_emc
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+INFO - 08/26/24 19:53:10 - 0:00:00 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.43±0.20
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.26±1.19
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.19±0.98
+INFO - 08/26/24 19:53:10 - 0:00:00 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 84.79±0.42
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.61±1.16
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.58±1.01
+INFO - 08/26/24 19:53:10 - 0:00:00 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.20±0.42
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.35±0.91
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.48±0.73
+INFO - 08/26/24 19:53:13 - 0:00:03 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.49±0.21
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.35±1.23
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 80.18±0.95
+INFO - 08/26/24 19:53:15 - 0:00:05 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.45±0.40
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.15±1.20
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 70.84±0.77
+INFO - 08/26/24 19:53:18 - 0:00:08 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.67±0.45
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.77±1.04
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 73.73±0.66
+INFO - 08/27/24 15:48:38 - 0:00:00 - data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     gpu: 0
+                                     model: line
+                                     name: CrisisMMDh_emc
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+INFO - 08/27/24 15:48:38 - 0:00:00 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.43±0.20
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.26±1.19
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.19±0.98
+INFO - 08/27/24 15:48:38 - 0:00:00 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 84.79±0.42
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.61±1.16
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.58±1.01
+INFO - 08/27/24 15:48:38 - 0:00:00 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.20±0.42
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.35±0.91
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.48±0.73
+INFO - 08/27/24 15:48:44 - 0:00:06 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.49±0.21 Train mse: 0.24±0.00 Test mse: 1.20±0.00
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.35±1.23 Train mse: 0.37±0.00 Test mse: 1.31±0.00
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 80.18±0.95 Train mse: 0.41±0.00 Test mse: 1.35±0.01
+INFO - 08/27/24 15:48:47 - 0:00:08 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.45±0.40 Train mse: 0.24±0.00 Test mse: 1.21±0.00
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.15±1.20 Train mse: 0.37±0.00 Test mse: 1.32±0.00
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 70.84±0.77 Train mse: 0.41±0.00 Test mse: 1.35±0.01
+INFO - 08/27/24 15:48:49 - 0:00:11 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.67±0.45 Train mse: 0.24±0.00 Test mse: 1.18±0.00
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.77±1.04 Train mse: 0.37±0.00 Test mse: 1.28±0.00
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 73.73±0.66 Train mse: 0.41±0.00 Test mse: 1.32±0.01
+INFO - 08/27/24 15:56:17 - 0:00:00 - data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     gpu: 0
+                                     model: line
+                                     name: CrisisMMDh_emc
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+INFO - 08/27/24 15:56:17 - 0:00:00 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.43±0.20
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.26±1.19
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.19±0.98
+INFO - 08/27/24 15:56:17 - 0:00:00 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 84.79±0.42
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.61±1.16
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.58±1.01
+INFO - 08/27/24 15:56:17 - 0:00:00 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.20±0.42
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.35±0.91
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.48±0.73
+INFO - 08/27/24 15:56:22 - 0:00:05 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.49±0.21 Train mse: 0.24±0.00 Test mse: 0.20±0.01
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.35±1.23 Train mse: 0.37±0.00 Test mse: 0.36±0.00
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 80.18±0.95 Train mse: 0.41±0.00 Test mse: 0.41±0.01
+INFO - 08/27/24 15:56:24 - 0:00:07 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.45±0.40 Train mse: 0.24±0.00 Test mse: 0.40±0.00
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.15±1.20 Train mse: 0.37±0.00 Test mse: 0.43±0.00
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 70.84±0.77 Train mse: 0.41±0.00 Test mse: 0.46±0.01
+INFO - 08/27/24 15:56:27 - 0:00:10 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.67±0.45 Train mse: 0.24±0.00 Test mse: 0.39±0.00
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.77±1.04 Train mse: 0.37±0.00 Test mse: 0.42±0.00
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 73.73±0.66 Train mse: 0.41±0.00 Test mse: 0.45±0.00
+INFO - 08/29/24 19:20:46 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: KNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 08/29/24 19:20:46 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 08/29/24 19:20:46 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:22:00 - 0:01:13 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:23:19 - 0:02:33 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:24:39 - 0:03:53 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.50±0.21 Train mse: 0.37±0.00 Test mse: 0.36±0.00
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 88.03±0.94 Train mse: 0.44±0.00 Test mse: 0.44±0.00
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 82.21±0.65 Train mse: 0.45±0.00 Test mse: 0.45±0.00
+INFO - 08/29/24 19:24:39 - 0:03:53 - ./../emc_data/CrisisMMD dev
+INFO - 08/29/24 19:24:39 - 0:03:53 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:24:39 - 0:03:53 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:24:39 - 0:03:53 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:24:39 - 0:03:53 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.52±0.41 Train mse: 0.37±0.00 Test mse: 0.42±0.00
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.66±1.10 Train mse: 0.44±0.00 Test mse: 0.46±0.00
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 72.05±0.56 Train mse: 0.45±0.00 Test mse: 0.47±0.00
+INFO - 08/29/24 19:24:39 - 0:03:53 - ./../emc_data/CrisisMMD test
+INFO - 08/29/24 19:24:39 - 0:03:53 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:24:39 - 0:03:53 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:24:39 - 0:03:53 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/29/24 19:24:39 - 0:03:53 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.68±0.42 Train mse: 0.37±0.00 Test mse: 0.42±0.00
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 80.19±0.98 Train mse: 0.44±0.00 Test mse: 0.46±0.00
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 74.63±0.63 Train mse: 0.45±0.00 Test mse: 0.47±0.00
+INFO - 08/29/24 20:28:36 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: Ratio
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 08/29/24 20:28:36 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 08/29/24 20:28:36 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:37 - 0:00:01 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:38 - 0:00:02 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:39 - 0:00:03 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.43±0.20 Train mse: 0.45±0.01 Test mse: 0.38±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.26±1.19 Train mse: 0.47±0.01 Test mse: 0.43±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.19±0.98 Train mse: 0.49±0.01 Test mse: 0.46±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 08/29/24 20:28:39 - 0:00:03 - ./../emc_data/CrisisMMD dev
+INFO - 08/29/24 20:28:39 - 0:00:03 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:40 - 0:00:04 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:40 - 0:00:05 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:41 - 0:00:06 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 84.79±0.42 Train mse: 0.45±0.01 Test mse: 0.45±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.61±1.16 Train mse: 0.47±0.01 Test mse: 0.47±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.58±1.01 Train mse: 0.49±0.01 Test mse: 0.49±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 08/29/24 20:28:41 - 0:00:06 - ./../emc_data/CrisisMMD test
+INFO - 08/29/24 20:28:41 - 0:00:06 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:42 - 0:00:07 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:43 - 0:00:07 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/29/24 20:28:44 - 0:00:08 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.20±0.42 Train mse: 0.45±0.01 Test mse: 0.44±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.35±0.91 Train mse: 0.47±0.01 Test mse: 0.47±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.48±0.73 Train mse: 0.49±0.01 Test mse: 0.49±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 08/30/24 18:26:29 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: CalNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 08/30/24 18:26:29 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.46±0.19 Train mse: 0.38±0.00 Test mse: 0.21±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.27±1.17 Train mse: 0.43±0.00 Test mse: 0.36±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.01±0.95 Train mse: 0.47±0.00 Test mse: 0.42±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 08/30/24 18:26:29 - 0:00:00 - ./../emc_data/CrisisMMD dev
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.20±0.34 Train mse: 0.38±0.00 Test mse: 0.38±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.88±1.01 Train mse: 0.43±0.00 Test mse: 0.43±0.00 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.73±0.86 Train mse: 0.47±0.00 Test mse: 0.47±0.00 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 08/30/24 18:26:29 - 0:00:00 - ./../emc_data/CrisisMMD test
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 18:26:29 - 0:00:00 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.50±0.41 Train mse: 0.38±0.00 Test mse: 0.37±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.43±0.96 Train mse: 0.43±0.00 Test mse: 0.42±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.45±0.53 Train mse: 0.47±0.00 Test mse: 0.47±0.00 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 08/30/24 19:05:17 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: CalWNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 08/30/24 19:05:17 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 08/30/24 19:05:17 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:18 - 0:00:01 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:20 - 0:00:03 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:22 - 0:00:05 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.49±0.21 Train mse: 0.47±0.00 Test mse: 0.22±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 86.70±1.54 Train mse: 0.51±0.01 Test mse: 0.44±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.83±2.41 Train mse: 0.56±0.01 Test mse: 0.49±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 08/30/24 19:05:22 - 0:00:05 - ./../emc_data/CrisisMMD dev
+INFO - 08/30/24 19:05:22 - 0:00:05 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:22 - 0:00:05 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:22 - 0:00:05 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:22 - 0:00:05 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.57±0.44 Train mse: 0.47±0.00 Test mse: 0.47±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.85±1.51 Train mse: 0.51±0.01 Test mse: 0.51±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.85±1.71 Train mse: 0.56±0.01 Test mse: 0.56±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 08/30/24 19:05:22 - 0:00:05 - ./../emc_data/CrisisMMD test
+INFO - 08/30/24 19:05:22 - 0:00:05 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:22 - 0:00:05 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:22 - 0:00:05 - Trian data: torch.Size([2, 992, 5])
+INFO - 08/30/24 19:05:22 - 0:00:05 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.62±0.55 Train mse: 0.47±0.00 Test mse: 0.45±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.68±1.11 Train mse: 0.51±0.01 Test mse: 0.49±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 73.21±1.16 Train mse: 0.56±0.01 Test mse: 0.54±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 08/31/24 14:42:58 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: PWCNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 08/31/24 14:42:58 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 08/31/24 14:42:58 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:42:59 - 0:00:01 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:00 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:01 - 0:00:02 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.48±0.21 Train mse: 0.27±0.01 Test mse: 0.22±0.01 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.16±1.51 Train mse: 0.46±0.01 Test mse: 0.45±0.01 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 77.86±1.09 Train mse: 0.51±0.01 Test mse: 0.50±0.01 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 08/31/24 14:43:01 - 0:00:02 - ./../emc_data/CrisisMMD dev
+INFO - 08/31/24 14:43:01 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:01 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:01 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:01 - 0:00:02 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.57±0.42 Train mse: 0.27±0.01 Test mse: 0.47±0.00 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.14±1.33 Train mse: 0.46±0.01 Test mse: 0.54±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.81±1.21 Train mse: 0.51±0.01 Test mse: 0.58±0.01 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 08/31/24 14:43:01 - 0:00:02 - ./../emc_data/CrisisMMD test
+INFO - 08/31/24 14:43:01 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:01 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:01 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 08/31/24 14:43:01 - 0:00:03 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.61±0.56 Train mse: 0.27±0.01 Test mse: 0.45±0.01 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.77±1.04 Train mse: 0.46±0.01 Test mse: 0.52±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.76±0.47 Train mse: 0.51±0.01 Test mse: 0.56±0.01 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/01/24 16:11:45 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: KNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/01/24 16:11:45 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/01/24 16:11:45 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/01/24 16:11:51 - 0:00:07 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:12:32 - 0:00:47 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:13:13 - 0:01:28 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.47±0.23 Train mse: 0.38±0.00 Test mse: 0.25±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 88.11±0.91 Train mse: 0.36±0.00 Test mse: 0.35±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 82.50±0.58 Train mse: 0.39±0.00 Test mse: 0.38±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 09/01/24 16:13:13 - 0:01:28 - ./../emc_data/CrisisMMD dev
+INFO - 09/01/24 16:13:13 - 0:01:28 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/01/24 16:13:13 - 0:01:28 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:13:13 - 0:01:28 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:13:13 - 0:01:28 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.47±0.42 Train mse: 0.38±0.00 Test mse: 0.38±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.68±1.02 Train mse: 0.36±0.00 Test mse: 0.43±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 72.19±0.41 Train mse: 0.39±0.00 Test mse: 0.45±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 09/01/24 16:13:13 - 0:01:28 - ./../emc_data/CrisisMMD test
+INFO - 09/01/24 16:13:13 - 0:01:28 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/01/24 16:13:13 - 0:01:28 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:13:13 - 0:01:28 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:13:13 - 0:01:28 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.55±0.43 Train mse: 0.38±0.00 Test mse: 0.37±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 80.20±1.01 Train mse: 0.36±0.00 Test mse: 0.42±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 74.84±0.55 Train mse: 0.39±0.00 Test mse: 0.44±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/01/24 16:13:46 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 50
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: KNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/01/24 16:13:46 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/01/24 16:13:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/01/24 16:13:49 - 0:00:04 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:14:10 - 0:00:24 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:14:30 - 0:00:45 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.45±0.20 Train mse: 0.38±0.00 Test mse: 0.25±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 88.00±0.97 Train mse: 0.37±0.00 Test mse: 0.35±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 82.20±0.62 Train mse: 0.39±0.00 Test mse: 0.38±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 09/01/24 16:14:30 - 0:00:45 - ./../emc_data/CrisisMMD dev
+INFO - 09/01/24 16:14:30 - 0:00:45 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/01/24 16:14:30 - 0:00:45 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:14:30 - 0:00:45 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:14:30 - 0:00:45 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.36±0.41 Train mse: 0.38±0.00 Test mse: 0.38±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.61±1.09 Train mse: 0.37±0.00 Test mse: 0.43±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 72.00±0.56 Train mse: 0.39±0.00 Test mse: 0.45±0.01 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 09/01/24 16:14:30 - 0:00:45 - ./../emc_data/CrisisMMD test
+INFO - 09/01/24 16:14:30 - 0:00:45 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/01/24 16:14:31 - 0:00:45 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:14:31 - 0:00:45 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/01/24 16:14:31 - 0:00:45 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.51±0.46 Train mse: 0.38±0.00 Test mse: 0.38±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 80.16±0.93 Train mse: 0.37±0.00 Test mse: 0.42±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 74.68±0.75 Train mse: 0.39±0.00 Test mse: 0.44±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/03/24 14:54:40 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: KNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/03/24 14:54:40 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/03/24 14:54:40 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:56:09 - 0:01:29 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:57:28 - 0:02:48 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:58:45 - 0:04:05 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.51±0.21 Train mse: 0.23±0.00 Test mse: 0.19±0.01 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 88.07±0.92 Train mse: 0.36±0.00 Test mse: 0.35±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 82.52±0.53 Train mse: 0.39±0.00 Test mse: 0.38±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 09/03/24 14:58:45 - 0:04:05 - ./../emc_data/CrisisMMD dev
+INFO - 09/03/24 14:58:45 - 0:04:05 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:58:45 - 0:04:06 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:58:45 - 0:04:06 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:58:46 - 0:04:06 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.42±0.33 Train mse: 0.23±0.00 Test mse: 0.40±0.00 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.66±1.00 Train mse: 0.36±0.00 Test mse: 0.43±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 72.16±0.39 Train mse: 0.39±0.00 Test mse: 0.45±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 09/03/24 14:58:46 - 0:04:06 - ./../emc_data/CrisisMMD test
+INFO - 09/03/24 14:58:46 - 0:04:06 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:58:46 - 0:04:06 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:58:46 - 0:04:06 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/03/24 14:58:46 - 0:04:06 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.67±0.43 Train mse: 0.23±0.00 Test mse: 0.39±0.00 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 80.20±0.97 Train mse: 0.36±0.00 Test mse: 0.42±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 74.85±0.57 Train mse: 0.39±0.00 Test mse: 0.44±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/04/24 14:21:42 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: KNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/04/24 14:21:42 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/04/24 14:21:42 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:23:21 - 0:01:39 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:24:40 - 0:02:58 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:25:58 - 0:04:16 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.51±0.21 Train mse: 0.23±0.00 Test mse: 0.19±0.01 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 88.07±0.89 Train mse: 0.36±0.00 Test mse: 0.35±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 82.49±0.53 Train mse: 0.39±0.00 Test mse: 0.38±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 09/04/24 14:25:58 - 0:04:16 - ./../emc_data/CrisisMMD dev
+INFO - 09/04/24 14:25:58 - 0:04:16 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:25:58 - 0:04:16 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:25:58 - 0:04:16 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:25:59 - 0:04:16 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.41±0.33 Train mse: 0.23±0.00 Test mse: 0.39±0.00 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.66±0.93 Train mse: 0.36±0.00 Test mse: 0.43±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 72.08±0.30 Train mse: 0.39±0.00 Test mse: 0.44±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 09/04/24 14:25:59 - 0:04:16 - ./../emc_data/CrisisMMD test
+INFO - 09/04/24 14:25:59 - 0:04:16 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:25:59 - 0:04:17 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:25:59 - 0:04:17 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/04/24 14:25:59 - 0:04:17 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.71±0.40 Train mse: 0.23±0.00 Test mse: 0.38±0.00 Train M1 ECE: 1.74±0.37 Train M2 ECE: 2.18±0.35 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 80.26±0.91 Train mse: 0.36±0.00 Test mse: 0.41±0.00 Train M1 ECE: 10.63±0.91 Train M2 ECE: 9.59±2.96 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 74.83±0.48 Train mse: 0.39±0.00 Test mse: 0.44±0.00 Train M1 ECE: 21.81±0.25 Train M2 ECE: 11.65±3.46 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/05/24 14:07:14 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: KNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/05/24 14:07:14 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/05/24 14:07:14 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/05/24 14:07:20 - 0:00:07 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.45±0.23 Train mse: 0.38±0.00 Test mse: 0.24±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+INFO - 09/05/24 14:07:20 - 0:00:07 - ./../emc_data/CrisisMMD dev
+INFO - 09/05/24 14:07:20 - 0:00:07 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/05/24 14:07:20 - 0:00:07 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.46±0.39 Train mse: 0.38±0.00 Test mse: 0.38±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+INFO - 09/05/24 14:07:20 - 0:00:07 - ./../emc_data/CrisisMMD test
+INFO - 09/05/24 14:07:20 - 0:00:07 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/05/24 14:07:20 - 0:00:07 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.53±0.43 Train mse: 0.38±0.00 Test mse: 0.37±0.00 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+INFO - 09/08/24 14:45:47 - 0:00:00 - batch_size: 512
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 5e-05
+                                     model: Ratio
+                                     n_nodes: 100
+                                     name: CrisisMMDh_emc
+                                     nlayers: 0
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/08/24 14:45:48 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.43±0.21 Train mse: 0.40±0.01 Test mse: 0.19±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.12±1.29 Train mse: 0.47±0.01 Test mse: 0.38±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 77.85±1.07 Train mse: 0.52±0.01 Test mse: 0.45±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 09/08/24 14:45:48 - 0:00:00 - ./../emc_data/CrisisMMD dev
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.03±0.31 Train mse: 0.40±0.01 Test mse: 0.40±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.71±1.20 Train mse: 0.47±0.01 Test mse: 0.47±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.55±1.02 Train mse: 0.52±0.01 Test mse: 0.52±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 09/08/24 14:45:48 - 0:00:00 - ./../emc_data/CrisisMMD test
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 14:45:48 - 0:00:00 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.49±0.45 Train mse: 0.40±0.01 Test mse: 0.39±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.42±0.85 Train mse: 0.47±0.01 Test mse: 0.46±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.54±0.55 Train mse: 0.52±0.01 Test mse: 0.50±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/08/24 15:00:46 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: Ratio
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/08/24 15:00:46 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.35±0.22 Train mse: 0.51±0.01 Test mse: 0.46±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.43±1.11 Train mse: 0.52±0.01 Test mse: 0.50±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.18±0.98 Train mse: 0.55±0.01 Test mse: 0.53±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 09/08/24 15:00:46 - 0:00:00 - ./../emc_data/CrisisMMD dev
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 84.77±0.49 Train mse: 0.51±0.01 Test mse: 0.51±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.85±1.03 Train mse: 0.52±0.01 Test mse: 0.52±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.67±0.99 Train mse: 0.55±0.01 Test mse: 0.55±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 09/08/24 15:00:46 - 0:00:00 - ./../emc_data/CrisisMMD test
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:00:46 - 0:00:00 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.13±0.48 Train mse: 0.51±0.01 Test mse: 0.50±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.45±0.89 Train mse: 0.52±0.01 Test mse: 0.52±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.41±0.56 Train mse: 0.55±0.01 Test mse: 0.55±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/08/24 15:01:14 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: Ratio
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/08/24 15:01:14 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/08/24 15:01:14 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.40±0.21 Train mse: 0.62±0.01 Test mse: 0.63±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 0.82±0.21 Test M2 ECE: 3.72±0.38
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.37±1.15 Train mse: 0.60±0.01 Test mse: 0.61±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 9.51±0.91 Test M2 ECE: 8.82±2.82
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.19±0.97 Train mse: 0.59±0.01 Test mse: 0.60±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 21.25±0.14 Test M2 ECE: 11.21±3.28
+INFO - 09/08/24 15:01:15 - 0:00:00 - ./../emc_data/CrisisMMD dev
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 84.74±0.48 Train mse: 0.62±0.01 Test mse: 0.62±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.28±0.68 Test M2 ECE: 8.69±0.96
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 76.68±1.12 Train mse: 0.60±0.01 Test mse: 0.60±0.01 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.88±1.05 Test M2 ECE: 15.14±2.69
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.61±0.94 Train mse: 0.59±0.01 Test mse: 0.59±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 27.65±0.51 Test M2 ECE: 16.50±3.60
+INFO - 09/08/24 15:01:15 - 0:00:00 - ./../emc_data/CrisisMMD test
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - Trian data: torch.Size([2, 992, 5])
+INFO - 09/08/24 15:01:15 - 0:00:00 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.16±0.52 Train mse: 0.62±0.01 Test mse: 0.62±0.01 Train M1 ECE: 11.28±0.68 Train M2 ECE: 8.69±0.96 Test M1 ECE: 11.30±0.68 Test M2 ECE: 7.37±0.37
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.38±0.92 Train mse: 0.60±0.01 Test mse: 0.61±0.00 Train M1 ECE: 17.88±1.05 Train M2 ECE: 15.14±2.69 Test M1 ECE: 17.01±0.90 Test M2 ECE: 12.74±2.59
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.33±0.57 Train mse: 0.59±0.01 Test mse: 0.60±0.01 Train M1 ECE: 27.65±0.51 Train M2 ECE: 16.50±3.60 Test M1 ECE: 26.27±0.57 Test M2 ECE: 14.17±3.38
+INFO - 09/12/24 14:48:26 - 0:00:00 - batch_size: 512
+                                     data_nums: 1,2,3,4,5
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 5e-05
+                                     model: Linear
+                                     n_nodes: 100
+                                     name: CrisisMMDh_emc
+                                     nlayers: 0
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/12/24 14:48:26 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/12/24 14:48:26 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:27 - 0:00:01 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:28 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:28 - 0:00:02 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.23±0.30 M2: 96.84±0.18 Min: 90.81±0.45 Max: 99.26±0.17 M: 98.47±0.12 Train mse: 0.24±0.00 Test mse: 0.20±0.00
+                                     noise_5 : M1: 82.58±0.50 M2: 77.43±0.66 Min: 67.13±0.49 Max: 92.88±0.60 M: 86.55±1.11 Train mse: 0.38±0.00 Test mse: 0.37±0.00
+                                     noise_10: M1: 75.23±0.21 M2: 74.89±0.26 Min: 62.30±0.27 Max: 87.82±0.43 M: 80.21±0.86 Train mse: 0.41±0.00 Test mse: 0.40±0.00
+INFO - 09/12/24 14:48:28 - 0:00:02 - ./../emc_data/CrisisMMD dev
+INFO - 09/12/24 14:48:28 - 0:00:02 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:29 - 0:00:03 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:29 - 0:00:03 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:30 - 0:00:04 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.42±0.52 M2: 77.18±0.69 Min: 65.02±0.35 Max: 91.57±0.38 M: 85.38±0.37 Train mse: 0.24±0.00 Test mse: 0.40±0.00
+                                     noise_5 : M1: 73.04±0.70 M2: 66.96±0.65 Min: 53.93±0.62 Max: 86.07±0.78 M: 76.39±0.85 Train mse: 0.38±0.00 Test mse: 0.43±0.00
+                                     noise_10: M1: 67.32±0.37 M2: 64.92±0.64 Min: 51.45±0.96 Max: 80.79±0.49 M: 70.56±0.81 Train mse: 0.41±0.00 Test mse: 0.46±0.00
+INFO - 09/12/24 14:48:30 - 0:00:04 - ./../emc_data/CrisisMMD test
+INFO - 09/12/24 14:48:30 - 0:00:04 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:30 - 0:00:04 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:31 - 0:00:05 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 14:48:31 - 0:00:05 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.89±1.13 M2: 80.57±0.35 Min: 66.32±1.19 Max: 93.13±0.27 M: 87.79±0.56 Train mse: 0.24±0.00 Test mse: 0.38±0.00
+                                     noise_5 : M1: 73.89±0.30 M2: 71.39±0.91 Min: 57.67±1.01 Max: 87.61±1.01 M: 78.82±0.51 Train mse: 0.38±0.00 Test mse: 0.42±0.00
+                                     noise_10: M1: 68.11±0.50 M2: 68.59±0.40 Min: 54.52±0.80 Max: 82.18±0.64 M: 73.91±0.44 Train mse: 0.41±0.00 Test mse: 0.45±0.00
+INFO - 09/12/24 15:03:32 - 0:00:00 - batch_size: 512
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 5e-05
+                                     model: rf
+                                     n_nodes: 100
+                                     name: CrisisMMDh_emc
+                                     nlayers: 0
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/12/24 15:03:32 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/12/24 15:03:32 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:37 - 0:00:05 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:42 - 0:00:10 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:46 - 0:00:14 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 99.08±0.20 Train mse: 0.09±0.00 Test mse: 0.07±0.00
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 91.80±0.69 Train mse: 0.14±0.00 Test mse: 0.14±0.00
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 84.93±0.49 Train mse: 0.25±0.00 Test mse: 0.25±0.00
+INFO - 09/12/24 15:03:46 - 0:00:14 - ./../emc_data/CrisisMMD dev
+INFO - 09/12/24 15:03:46 - 0:00:14 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:47 - 0:00:15 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:48 - 0:00:16 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:49 - 0:00:17 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 90.04±0.46 Train mse: 0.09±0.00 Test mse: 0.15±0.00
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 83.87±1.06 Train mse: 0.14±0.00 Test mse: 0.16±0.00
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 76.47±0.49 Train mse: 0.25±0.00 Test mse: 0.27±0.00
+INFO - 09/12/24 15:03:49 - 0:00:17 - ./../emc_data/CrisisMMD test
+INFO - 09/12/24 15:03:49 - 0:00:17 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:50 - 0:00:18 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:51 - 0:00:19 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:03:52 - 0:00:20 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.55±0.42 Train mse: 0.09±0.00 Test mse: 0.38±0.01
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.96±0.90 Train mse: 0.14±0.00 Test mse: 0.42±0.01
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 74.89±0.53 Train mse: 0.25±0.00 Test mse: 0.44±0.00
+INFO - 09/12/24 15:04:22 - 0:00:00 - batch_size: 512
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 5e-05
+                                     model: svr
+                                     n_nodes: 100
+                                     name: CrisisMMDh_emc
+                                     nlayers: 0
+                                     noise: 0,5,10
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 09/12/24 15:04:22 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 09/12/24 15:04:22 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:04:46 - 0:00:24 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:05:38 - 0:01:16 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:06:33 - 0:02:11 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48±0.67 M2: 96.86±0.19 Min: 91.13±0.69 Max: 99.21±0.20 M: 98.46±0.24 Train mse: 0.24±0.00 Test mse: 0.20±0.01
+                                     noise_5 : M1: 83.02±0.71 M2: 77.74±0.83 Min: 67.49±0.61 Max: 93.28±0.60 M: 87.33±1.17 Train mse: 0.38±0.01 Test mse: 0.37±0.01
+                                     noise_10: M1: 75.38±0.39 M2: 73.70±2.11 Min: 60.86±2.83 Max: 88.22±0.71 M: 78.64±0.84 Train mse: 0.43±0.00 Test mse: 0.42±0.00
+INFO - 09/12/24 15:06:33 - 0:02:11 - ./../emc_data/CrisisMMD dev
+INFO - 09/12/24 15:06:33 - 0:02:11 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:06:40 - 0:02:18 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:06:57 - 0:02:34 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:07:17 - 0:02:54 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34±0.73 M2: 77.30±0.61 Min: 64.93±0.67 Max: 91.71±0.36 M: 85.39±0.39 Train mse: 0.24±0.00 Test mse: 0.41±0.01
+                                     noise_5 : M1: 73.06±0.52 M2: 67.33±0.85 Min: 53.52±0.92 Max: 86.88±1.00 M: 77.11±1.23 Train mse: 0.38±0.01 Test mse: 0.46±0.01
+                                     noise_10: M1: 67.12±0.45 M2: 64.05±1.97 Min: 49.78±3.04 Max: 81.39±1.04 M: 69.98±0.79 Train mse: 0.43±0.00 Test mse: 0.49±0.01
+INFO - 09/12/24 15:07:17 - 0:02:54 - ./../emc_data/CrisisMMD test
+INFO - 09/12/24 15:07:17 - 0:02:54 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:07:23 - 0:03:01 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:07:40 - 0:03:18 - Trian data: torch.Size([2, 7078, 5])
+INFO - 09/12/24 15:08:00 - 0:03:38 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75±1.02 M2: 80.25±0.50 Min: 65.90±1.39 Max: 93.10±0.35 M: 87.50±0.50 Train mse: 0.24±0.00 Test mse: 0.40±0.01
+                                     noise_5 : M1: 73.98±0.67 M2: 71.42±0.74 Min: 57.44±1.21 Max: 87.96±0.93 M: 79.53±0.87 Train mse: 0.38±0.01 Test mse: 0.45±0.00
+                                     noise_10: M1: 67.94±0.59 M2: 67.22±2.47 Min: 52.52±3.52 Max: 82.64±0.92 M: 72.94±0.44 Train mse: 0.43±0.00 Test mse: 0.49±0.00
+INFO - 04/29/25 11:07:35 - 0:00:00 - batch_size: 128
+                                     data_nums: 1,2,3,4,5,6,7,8,9,10
+                                     dataset: CrisisMMD
+                                     device: cuda:0
+                                     epochs: 100
+                                     gpu: 0
+                                     lr: 0.001
+                                     model: KNet
+                                     n_nodes: 128
+                                     name: CrisisMMDh_emc
+                                     nlayers: 1
+                                     noise: 0
+                                     output_dir: ../emc_data
+                                     path: ./../emc_data/CrisisMMD
+                                     seed: 42
+                                     top_k_logits: 200
+INFO - 04/29/25 11:07:35 - 0:00:00 - ./../emc_data/CrisisMMD train
+INFO - 04/29/25 11:07:35 - 0:00:00 - Trian data: torch.Size([2, 7078, 5])
+INFO - 04/29/25 11:11:31 - 0:03:55 - ./../emc_data/CrisisMMD train
+                                     noise_0 : M1: 93.48��0.67 M2: 96.86��0.19 Min: 91.13��0.69 Max: 99.21��0.20 M: 98.51��0.21 Train mse: 0.23��0.00 Test mse: 0.19��0.01 Train M1 ECE: 1.74��0.37 Train M2 ECE: 2.18��0.35 Test M1 ECE: 0.82��0.21 Test M2 ECE: 3.72��0.38
+INFO - 04/29/25 11:11:31 - 0:03:55 - ./../emc_data/CrisisMMD dev
+INFO - 04/29/25 11:11:31 - 0:03:55 - Trian data: torch.Size([2, 7078, 5])
+INFO - 04/29/25 11:11:31 - 0:03:56 - ./../emc_data/CrisisMMD dev
+                                     noise_0 : M1: 79.34��0.73 M2: 77.30��0.61 Min: 64.93��0.67 Max: 91.71��0.36 M: 85.41��0.33 Train mse: 0.23��0.00 Test mse: 0.39��0.00 Train M1 ECE: 1.74��0.37 Train M2 ECE: 2.18��0.35 Test M1 ECE: 11.28��0.68 Test M2 ECE: 8.69��0.96
+INFO - 04/29/25 11:11:31 - 0:03:56 - ./../emc_data/CrisisMMD test
+INFO - 04/29/25 11:11:31 - 0:03:56 - Trian data: torch.Size([2, 7078, 5])
+INFO - 04/29/25 11:11:31 - 0:03:56 - ./../emc_data/CrisisMMD test
+                                     noise_0 : M1: 78.75��1.02 M2: 80.25��0.50 Min: 65.90��1.39 Max: 93.10��0.35 M: 87.71��0.40 Train mse: 0.23��0.00 Test mse: 0.38��0.00 Train M1 ECE: 1.74��0.37 Train M2 ECE: 2.18��0.35 Test M1 ECE: 11.30��0.68 Test M2 ECE: 7.37��0.37
