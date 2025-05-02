@@ -55,9 +55,22 @@ MVSA: Download from [MVSA kaggle](https://www.kaggle.com/datasets/vincemarcs/mvs
 
 UPMC Food101: Download from [UPMC Food101 kaggle](https://www.kaggle.com/datasets/gianmarco96/upmcfood101). Place the `images` folder into `datasets/food101`.
 
-CrisisMMD: Download from [CrisisMMD v2.0](https://crisisnlp.qcri.org/data/crisismmd/CrisisMMD_v2.0.tar.gz). Place the `data_image` folder into `datasets/CrisisMMD`.
+CrisisMMD: Download from the [official CrisisMMD webpage](https://crisisnlp.qcri.org/crisismmd). Place the `data_image` folder into `datasets/CrisisMMD`.
+
+<!-- Download from [CrisisMMD v2.0](https://crisisnlp.qcri.org/data/crisismmd/CrisisMMD_v2.0.tar.gz).  -->
 
 N24News: Download from [N24News](https://github.com/billywzh717/N24News). Place the `imgs` folder into `datasets/N24News`.
+
+If you use the datasets, please cite the following works:
+
+- MVSA:  Niu T, Zhu S, Pang L, El Saddik A. *Sentiment analysis on multi-view social data*. In: MMM 2016. Springer, 15–27.
+
+- CrisisMMD:  Alam F, Ofli F, Imran M. *CrisisMMD: Multimodal Twitter datasets from natural disasters*. In: Proc. of ICWSM, 2018.
+
+- N24News:    Wang Z, Shan X, Zhang X, Yang J. *N24News: A new dataset for multimodal news classification*. arXiv:2108.13327, 2021.
+
+- UPMC Food101:    Wang X, Kumar D, Thome N, Cord M, Precioso F. *Recipe recognition with large multimodal food dataset*. In: IEEE ICMEW, 2015.
+
 
 ## Stage 1: Train and Test
 Run the following shell scripts to train and test the baseline models:
@@ -139,7 +152,38 @@ python stage2.py --output_dir ../saved --name N24News --dataset N24News \
 --data_nums
 ```
 
+<!-- @inproceedings{niu2016sentiment,
+  title={Sentiment analysis on multi-view social data},
+  author={Niu, Tong and Zhu, Sheng and Pang, Liang and El Saddik, Abdulmotaleb},
+  booktitle={International Conference on Multimedia Modeling},
+  pages={15--27},
+  year={2016},
+  organization={Springer}
+}
 
+@inproceedings{alam2018crisismmd,
+  title={CrisisMMD: Multimodal Twitter datasets from natural disasters},
+  author={Alam, Firoj and Ofli, Ferda and Imran, Muhammad},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={12},
+  year={2018}
+}
+
+@article{wang2021n24news,
+  title={N24news: A new dataset for multimodal news classification},
+  author={Wang, Zixuan and Shan, Xiaoshuai and Zhang, Xinchao and Yang, Jianchao},
+  journal={arXiv preprint arXiv:2108.13327},
+  year={2021}
+}
+
+@inproceedings{wang2015recipe,
+  title={Recipe recognition with large multimodal food dataset},
+  author={Wang, Xin and Kumar, Dinesh and Thome, Nicolas and Cord, Matthieu and Precioso, Frederic},
+  booktitle={2015 IEEE International Conference on Multimedia \& Expo Workshops (ICMEW)},
+  pages={1--6},
+  year={2015},
+  organization={IEEE}
+} -->
 
 <!-- "# TMF Two-Stage Multimodal Fusion"  -->
 
